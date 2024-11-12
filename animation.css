@@ -1,0 +1,25 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    animation-name: anim1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   /* animation-direction: normal;*/
+   animation-direction: alternate;
+}
+@keyframes anim1{
+    /* 0%{
+        margin-left: 0px;
+        margin-top: 0px;
+        border-radius: 0px;
+        rotate: 0deg;
+    }
+    100%{
+        margin-left: 1450px;
+        margin-top: 0px;
+        border-radius: 50%;
+        rotate: 360deg;
+    } */
+
+}

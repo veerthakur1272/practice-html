@@ -1,0 +1,9 @@
+.navbar article div input{
+    background-color: rgb(232,231,231);
+    border: none;
+    outline: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+.navbar { text-align:start;
+}

@@ -1,0 +1,197 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{font-family: "Oswald", sans-serif;
+  font-optical-sizing:auto;
+  font-weight: 585;
+  font-style: normal;
+}*/
+
+._4option div{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    margin: 20px;
+}
+
+._4option{
+    position: fixed;
+    right: 0px;
+    top: 200px;
+}
+
+#phoneicons {
+    background-color: black;
+    color: blue;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    right: 100px;
+    position: fixed;
+    bottom: 100px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#f0ebe2;
+
+}
+
+.navbar article {
+    display: flex;
+}
+
+.navbar article div {
+    margin: 10px;
+}
+
+.navbar article .free .after::after {
+    content: "Learn More";
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin: 5px;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.navbar article div a {
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+
+}
+
+
+/*===================mid navbar=====================*/
+
+
+.midnavbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.midnavbar article {
+    display: flex;
+}
+
+.midnavbar article div img {
+    width: 150px;
+}
+
+.midnavbar article div input {
+    background-color: rgb(232, 231, 231);
+    border: none;
+    outline: none;
+
+}
+
+.midnavbar .mida1 {
+    background-color: rgb(232, 231, 231);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+.midnavbar article div a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+/*====================bottom navbar==========================*/
+
+.bottomnavbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.bottomnavbar div a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+/*=======================hero========================*/
+
+.hero {
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+.hero .hero1 {
+    width: 18vw;
+    height: 90vh;
+}
+
+.hero .hero1 div img {
+    width: 18vw;
+    height: 90vh;
+}
+
+.hero .hero2 {
+    width: 28vw;
+    height: 90vh;
+}
+
+.hero .hero2 div img {
+    width: 28vw;
+    height: 90vh;
+}
+
+.hero .hero3 {
+    width: 48vw;
+    height: 70vh;
+}
+
+.hero .hero3 div img {
+    width: 48vw;
+}
+
+/*=======================pcard==============*/
+.pcard article img{
+    width: 300px;
+}
+
+.pcard article{
+    margin: 30px;
+}
+
+.pcard{
+    display: flex;
+    padding: 50px;
+    overflow-x: scroll;
+}
+
+.pcard::-webkit-scrollbar{
+    display: none;
+}
+.pcard article div img:hover{
+    scale: 1.2;
+    transition: scale 0.5s;
+}
+
+.pcard article div {
+    overflow: hidden;
+}
+
+/*==============================*/
+.er article div{
+    background-image: url(https://www.portotheme.com/wordpress/porto/shop49/wp-content/uploads/sites/232/2024/07/shop49-prodcut1-2-560x560.jpg);
+    width: 300px;
+    height: 300px;
+}
+
+.er article div:hover{
+    scale: 1.2;
+    transition: scale 0.5s;
+}
+
+.er article{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}

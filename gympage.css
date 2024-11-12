@@ -1,0 +1,247 @@
+*{ margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(41, 41, 44);
+}
+
+.navbar article {
+    display: flex;
+    color: rgb(254, 255, 255);
+}
+
+.navbar article div {
+    justify-content: space-between;
+    margin: 25px;
+}
+.join1 div a{
+    align-items: right;
+    display: flex;
+
+}
+.img {
+     background-image: url(https://media.assets.ansira.net/websites/content/web-cooper-portal/blog/6f4b8a2f5d1c4c6bbe6be03981b35b94.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.free{
+    font-size: large;
+    font-family: Arial;
+    float: left;
+font-weight: bold;
+}
+
+.navbar article div a {
+    text-decoration: none;
+    color:rgb(254, 255, 255);
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.navbar article div span{
+    color: #ff0000;
+}
+
+/*-----------------------mid navbar-------------------*/
+.midnavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color:rgb(66, 58, 58);
+    position: sticky;
+    top: 0px;
+}
+.midnavbar div a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.cn{
+    width: 180px;
+    height: 50px;
+    background:#ff0000 ;
+    border: none;
+    margin-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+.cn :hover{
+    background-color: rgb(8, 8, 8);
+
+}
+
+.midnavbar .cn a {
+    transition:.3s ease ;
+    color:white;
+}
+.img article div img{
+    width: 1349px;
+    height: 807px;
+}
+
+
+/*---------------------card-------------------*/
+
+.card article {
+    width: 300px;
+    height: 200px;
+    background-color:black;
+    margin: 10px;
+    border-radius: 5%;
+    /* border-radius: 50%;
+    box-shadow: 0px 0px 30px 3px black;
+    border-radius: 5%;
+    border-radius: 5px;
+    /* border: 2px dashed black ;
+  border: 2px dotted black;*/
+   /* border: 2px solid black;*/
+    /* ============== x y blur spreas color */
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin: 30px;
+    
+
+}
+.card article a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    text-align:center;
+}
+
+.card article a div{
+    margin: 15px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.card span{
+    color: #f50707;
+    justify-content: center;
+    margin: 0;
+}
+.card .text{
+    justify-content: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: large;
+}
+.text article a{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+.text article a span{
+    color: red;
+}
+
+/*.btn .vi {
+    width: 100%;
+    height: 100vh;
+}
+.btn {
+    border: 2px solid red;
+    padding: 10p 30px 10px 30px;
+    width: 70px;
+    position: absolute;
+    background-color: aquamarine;
+    left: 1000px;
+    margin: 600px;
+    
+}*/
+
+.cn{
+    width: 180px;
+    height: 50px;
+    background:#ff0000 ;
+    border: none;
+    margin-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+.cn :hover{
+    background-color: rgb(8, 8, 8);
+}
+
+.midnavbar .cn a {
+    transition:.3s ease ;
+    color:white;
+}
+.END article a{
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    margin: 40px;
+    display: flex;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.END article a span{
+    color: red;
+}
+
+.content{position: absolute;
+    z-index: 5;
+    top: 450px;
+    left: 400px;
+}
+.content a h2{
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.content a{
+    text-decoration: none;
+}
+
+.TEXT3{
+    position:absolute;
+    z-index: 5;
+    top: 510px;
+    left: 495px;
+    justify-content: center;
+} 
+.TEXT3 a h1{
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    font-weight: lighter;
+    
+}
+.TEXT3 a{
+    text-decoration: none;
+    
+}
+
