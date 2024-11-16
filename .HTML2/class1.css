@@ -6,7 +6,6 @@
 
 #navbar{
     width:100%;
-    
     display: flex;
     justify-content: space-between;
     background-color: aqua;
@@ -42,4 +41,17 @@
     color: aqua;
     background-color: white;
     border: none;
+}
+.shadhow{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: aqua;
+    margin-left: 40%;
+    box-shadow: -10px 15px 5px 1px grey;
+    /* 1.horizontal 2. verticle 3.blur spred color  */
+}
+.text{
+    text-shadow: 10px 5px 5px blue;
+    font-size: 80px;
 }
