@@ -5,14 +5,21 @@
   font-weight: 585;
   font-style: normal;
 }*/
-
+/* *{background-color:antiquewhite;} */
 ._4option div{
     width: 60px;
     height: 60px;
     background-color: white;
     margin: 20px;
 }
-
+._4option div a {
+   display: flex;
+   color: black;
+   /* justify-content: center; */
+   /* align-items:center; */
+   padding: 17px;
+   font-size: 25px;
+}
 ._4option{
     position: fixed;
     right: 0px;
@@ -31,7 +38,7 @@
 }
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color:#f0ebe2;
 
@@ -68,7 +75,7 @@
 
 .midnavbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
@@ -178,7 +185,7 @@
     overflow: hidden;
 }
 
-/*==============================*/
+                  /*==============================*/
 .er article div{
     background-image: url(https://www.portotheme.com/wordpress/porto/shop49/wp-content/uploads/sites/232/2024/07/shop49-prodcut1-2-560x560.jpg);
     width: 300px;
@@ -195,3 +202,31 @@
     height: 300px;
     overflow: hidden;
 }
+                            /* ---------------Shop By Category -------------------*/
+.ShopCategory article img{
+    width: 202px;
+    height: 202px;
+}
+.ShopCategory ::-webkit-scrollbar{
+    display: none;}
+    
+.ShopCategory article{
+    margin: 10px;
+}
+.ShopCategory{
+    display: flex;
+    padding: 0px;
+    overflow-x: scroll;
+}
+.ShopCategory article div img:hover{
+    scale: 1.1;
+    transition: scale 0.7s;
+
+}
+ .ShopCategory article div{
+    overflow: hidden;
+ }
+ .behavior {
+    padding: 30px;
+    font-size: 25px
+ }
