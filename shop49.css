@@ -6,6 +6,9 @@
   font-style: normal;
 }*/
 /* *{background-color:antiquewhite;} */
+
+
+*{margin: 0px;}
 ._4option div{
     width: 60px;
     height: 60px;
@@ -41,6 +44,7 @@
     justify-content: space-between;
     align-items: center;
     background-color:#f0ebe2;
+    /* border-radius: 20px; */
 
 }
 
@@ -49,7 +53,7 @@
 }
 
 .navbar article div {
-    margin: 10px;
+    margin: 15px;
 }
 
 .navbar article .free .after::after {
@@ -159,18 +163,30 @@
 }
 
 /*=======================pcard==============*/
+.Arrivals{
+    /* padding-top: 30px; */
+    margin-left: 35px;
+    margin-top: 40px;
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-family: -apple-system, Arial, "Noto Sans", "Liberation Sans",  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight:bold;
+    color: rgb(80, 77, 77);
+}
 .pcard article img{
     width: 300px;
 }
 
 .pcard article{
-    margin: 30px;
+    margin: 10px;
 }
 
 .pcard{
     display: flex;
-    padding: 50px;
+    /* padding: 15px; */
     overflow-x: scroll;
+    /* margin-top: 0px; */
+    margin-left: 20px;
 }
 
 .pcard::-webkit-scrollbar{
@@ -185,7 +201,8 @@
     overflow: hidden;
 }
 
-                  /*==============================*/
+         /*=========================================*/
+         
 .er article div{
     background-image: url(https://www.portotheme.com/wordpress/porto/shop49/wp-content/uploads/sites/232/2024/07/shop49-prodcut1-2-560x560.jpg);
     width: 300px;
@@ -203,13 +220,25 @@
     overflow: hidden;
 }
                             /* ---------------Shop By Category -------------------*/
+.Category{
+    margin-left: 35px;
+    margin-top: 40px;
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-family: -apple-system, Arial, "Noto Sans", "Liberation Sans",  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight:bold;
+    color: rgb(80, 77, 77);
+}
 .ShopCategory article img{
     width: 202px;
     height: 202px;
 }
-.ShopCategory ::-webkit-scrollbar{
+.ShopCategory::-webkit-scrollbar{
     display: none;}
     
+ .ShopCategory{
+    margin-left: 20px;
+ }   
 .ShopCategory article{
     margin: 10px;
 }
@@ -229,4 +258,21 @@
  .behavior {
     padding: 30px;
     font-size: 25px
+ }
+
+ .line1{
+   margin-bottom: 8px;
+ }
+ 
+ .line2{
+    margin: 25px;
+    margin-right: 0px;
+ }
+
+ .line3{
+    margin: 30px;
+ }
+
+ .line4{
+    margin: 20px;
  }
