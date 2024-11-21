@@ -101,8 +101,9 @@
 
 .midnavbar .mida1 {
     background-color: rgb(232, 231, 231);
-    padding: 10px 30px 10px 30px;
+    padding: 15px 50px 15px 50px;
     border-radius: 20px;
+    
 }
 
 .midnavbar article div a {
@@ -118,6 +119,9 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    font-family: -apple-system, Arial, "Noto Sans", "Liberation Sans",  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .bottomnavbar div a {
@@ -125,7 +129,9 @@
     color: black;
     margin: 10px;
 }
-
+.bottomnavbar div a span{
+    color: orangered;
+}
 /*=======================hero========================*/
 
 .hero {
