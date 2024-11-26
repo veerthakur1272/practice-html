@@ -233,9 +233,13 @@
     display: none;
 }
 
+.pcard article div img {
+    transition: scale 0.9s;
+}
+
 .pcard article div img:hover {
     scale: 1.2;
-    transition: scale 0.5s;
+    /* transition: scale 0.5s; */
 }
 
 .pcard article div {
@@ -317,8 +321,10 @@
 
 .ShopCategory article div img:hover {
     scale: 1.1;
-    transition: scale 0.7s;
+}
 
+.ShopCategory article div img {
+    transition: scale 0.7s;
 }
 
 .ShopCategory article div {
@@ -381,19 +387,156 @@
         transform: translatex(-100%);
     }
 }
-             /* --------------product--2---------------------------- */
+
+/* --------------product--2---------------------------- */
 #product-main {
     display: flex;
-    margin-left: 20px;  
+    margin-left: 20px;
     flex-wrap: nowrap;
 }
-.product-2 div img{
-width: 60vh;
-height: 60vh;
-/* margin: 20px; */
+
+.product-2 div img {
+    width: 58vh;
+    height: 58vh;
+    /* margin: 20px; */
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.produt1{
-   width: 100px;
-   height: 100px;
+#product-main div img {
+    transition: scale 0.9s ease;
+}
+
+#product-main div img:hover {
+    scale: 1.1;
+
+}
+
+.produt1 div img {
+    width: 213px;
+    height: 213px;
+    margin: 10px;
+    margin-top: 0px;
+    transition: scale 0.7s ease;
+}
+
+.produt1 {
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+#product-main div {
+    overflow: hidden;
+}
+
+.produt1 div img:hover {
+    scale: 1.1;
+
+}
+
+.produt1::-webkit-scrollbar {
+    display: none;
+}
+
+.samllsize {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lagesize {
+    font-weight: 600;
+    margin-top: 30px;
+    text-decoration: none;
+    padding-top: 40px;
+    margin-left: 10px;
+    color: black;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.starsize {
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: black;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dolarsize {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chairfont1 {
+    margin-left: 10px;
+    margin-top: 17px;
+    font-size: 12px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chairfont2 {
+    font-weight: 600;
+    font-size: 23PX;
+    margin-top: 8px;
+    margin-left: 10px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chairfont3 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chairfont4 {
+    font-weight: 600;
+    font-size: 23PX;
+    margin-top: 3px;
+    margin-left: 10px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chairfont5 {
+    margin-top: 30px;
+    margin-left: 10px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-right: 170px; */
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+.line5 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Shopbrand {
+    display: flex;
+}
+
+.Shopbrand article div img {
+    width: 200px;
+    height: 150px;
 }
